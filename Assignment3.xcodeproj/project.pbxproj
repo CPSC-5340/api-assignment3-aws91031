@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		ACF5E04029BE957F00DD981A /* Assignment3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E03F29BE957F00DD981A /* Assignment3App.swift */; };
-		ACF5E04229BE957F00DD981A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF5E04129BE957F00DD981A /* ContentView.swift */; };
 		ACF5E04429BE958000DD981A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E04329BE958000DD981A /* Assets.xcassets */; };
 		ACF5E04729BE958000DD981A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E04629BE958000DD981A /* Preview Assets.xcassets */; };
+		F0659E9D2BB8CFE900C8ED8A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659E9C2BB8CFE900C8ED8A /* API.swift */; };
+		F0659E9F2BB8D08B00C8ED8A /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659E9E2BB8D08B00C8ED8A /* StaticValues.swift */; };
+		F0659EA22BB8D1A100C8ED8A /* TokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EA12BB8D1A100C8ED8A /* TokenResponseModel.swift */; };
+		F0659EA42BB8D24300C8ED8A /* StoreListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EA32BB8D24300C8ED8A /* StoreListModel.swift */; };
+		F0659EA72BB8D3B700C8ED8A /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EA62BB8D3B700C8ED8A /* StoreDetailView.swift */; };
+		F0659EAA2BB8D44A00C8ED8A /* StoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EA92BB8D44A00C8ED8A /* StoreListView.swift */; };
+		F0659EAD2BB8D52100C8ED8A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EAC2BB8D52100C8ED8A /* AuthViewModel.swift */; };
+		F0659EAF2BB8D56A00C8ED8A /* StoreListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0659EAE2BB8D56A00C8ED8A /* StoreListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACF5E03C29BE957F00DD981A /* Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF5E03F29BE957F00DD981A /* Assignment3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3App.swift; sourceTree = "<group>"; };
-		ACF5E04129BE957F00DD981A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACF5E04329BE958000DD981A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF5E04629BE958000DD981A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0659E9C2BB8CFE900C8ED8A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F0659E9E2BB8D08B00C8ED8A /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
+		F0659EA12BB8D1A100C8ED8A /* TokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseModel.swift; sourceTree = "<group>"; };
+		F0659EA32BB8D24300C8ED8A /* StoreListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListModel.swift; sourceTree = "<group>"; };
+		F0659EA62BB8D3B700C8ED8A /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		F0659EA92BB8D44A00C8ED8A /* StoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListView.swift; sourceTree = "<group>"; };
+		F0659EAC2BB8D52100C8ED8A /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F0659EAE2BB8D56A00C8ED8A /* StoreListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,14 @@
 		ACF5E03E29BE957F00DD981A /* Assignment3 */ = {
 			isa = PBXGroup;
 			children = (
+				F0659EAB2BB8D4F700C8ED8A /* ViewModel */,
+				F0659EA82BB8D40400C8ED8A /* View */,
+				F0659EA02BB8D10B00C8ED8A /* Model */,
 				ACF5E03F29BE957F00DD981A /* Assignment3App.swift */,
-				ACF5E04129BE957F00DD981A /* ContentView.swift */,
 				ACF5E04329BE958000DD981A /* Assets.xcassets */,
 				ACF5E04529BE958000DD981A /* Preview Content */,
+				F0659E9C2BB8CFE900C8ED8A /* API.swift */,
+				F0659E9E2BB8D08B00C8ED8A /* StaticValues.swift */,
 			);
 			path = Assignment3;
 			sourceTree = "<group>";
@@ -65,6 +83,33 @@
 				ACF5E04629BE958000DD981A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0659EA02BB8D10B00C8ED8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0659EA12BB8D1A100C8ED8A /* TokenResponseModel.swift */,
+				F0659EA32BB8D24300C8ED8A /* StoreListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0659EA82BB8D40400C8ED8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0659EA92BB8D44A00C8ED8A /* StoreListView.swift */,
+				F0659EA62BB8D3B700C8ED8A /* StoreDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0659EAB2BB8D4F700C8ED8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0659EAC2BB8D52100C8ED8A /* AuthViewModel.swift */,
+				F0659EAE2BB8D56A00C8ED8A /* StoreListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF5E04229BE957F00DD981A /* ContentView.swift in Sources */,
+				F0659EAF2BB8D56A00C8ED8A /* StoreListViewModel.swift in Sources */,
+				F0659EA72BB8D3B700C8ED8A /* StoreDetailView.swift in Sources */,
+				F0659EAA2BB8D44A00C8ED8A /* StoreListView.swift in Sources */,
+				F0659E9F2BB8D08B00C8ED8A /* StaticValues.swift in Sources */,
+				F0659EA22BB8D1A100C8ED8A /* TokenResponseModel.swift in Sources */,
+				F0659EAD2BB8D52100C8ED8A /* AuthViewModel.swift in Sources */,
+				F0659E9D2BB8CFE900C8ED8A /* API.swift in Sources */,
 				ACF5E04029BE957F00DD981A /* Assignment3App.swift in Sources */,
+				F0659EA42BB8D24300C8ED8A /* StoreListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +326,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +355,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
